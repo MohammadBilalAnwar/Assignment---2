@@ -1,0 +1,24 @@
+#members{
+    display: flex;
+    justify-content: center;
+}
+
+
+#navigation{
+    display:flex;
+    justify-content: center;
+}
+
+#About{
+    display:flex;
+    justify-content: center;
+}
+
+#Contact{
+    display:flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(206,255,255)
+}

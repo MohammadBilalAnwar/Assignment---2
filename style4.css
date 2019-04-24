@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding: 2% 0 0;
+}
+.contact{
+    width: 360px;
+    padding: 5% 0 0;
+    margin: auto;
+}
+.fieldKey{
+    font-family: "Roboto",sans-serif;
+    outline: 1px;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+.contact button{
+    font-family: "Reboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:#FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}

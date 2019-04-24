@@ -1,0 +1,114 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>
+        Register
+    </h1>
+    <br>
+    <header>
+        <nav>
+            <div id ="navigation">
+                <a href="index.html"><button>Home</button></a>
+                <a href="about.html"><button>About</button></a>
+                <a href="contact.html"><button>Contact</button></a>
+                <a href="login.html"><button>Login</button></a>
+                <a href="register.html"><button>Register</button></a>
+                <a href="forget-password.html"><button>Forgot Password?</button></a>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <form>
+        <div>
+            <table border="0" width="25%" cellspacing="0" cellpadding="2">
+                <tr>
+                    <td class="fieldKey">First Name:</td>
+                    <td class="fieldValue"><input type="text" name="firstName" /></td>
+                </tr>
+                <tr>
+                    <td class="fieldKey">Last Name:</td>
+                    <td class="fieldValue"><input type="text" name="lastName" /></td>
+                </tr>
+                <tr>
+                    <td class="fieldKey" valign="top">Email:</td>
+                    <td class="fieldValue"><input type="email" name="email"></input></td>
+                </tr>
+                <tr>
+                    <td class="fieldKey" valign="top">Date of Birth:</td>
+                    <td class="fieldValue"><input type="date" name="birthday"></input></td>
+                </tr>
+                <tr>
+                    <td class="fieldKey" valign="top">Gender:</td>
+                    <td class="fieldValue">
+                        <select name="gender">
+                            <option value="male" >male</option>
+                            <option value="female">female</option>
+                            <option value="other">other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fieldKey" valign="top">Password:</td>
+                    <td class="fieldValue"><input type="password" name="password" minlength="8"></input></td>
+                </tr>
+                <tr>
+                    <td class="fieldKey" valign="top">Confirm Password:</td>
+                    <td class="fieldValue"><input type="password" name="password" minlength="8"></input></td>
+                </tr>
+            </table>
+            <input type="submit" value="Change Password">
+        </div>
+    </form>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet"  href="style1.css" media="screen" />
+</head>
+<body>
+<h1>
+    Register
+</h1>
+<header>
+    <nav>
+        <div id ="navigation">
+            <a href="index.html"><button>Home</button></a>
+            <a href="about.html"><button>About</button></a>
+            <a href="contact.html"><button>Contact</button></a>
+            <a href="login.html"><button>Login</button></a>
+            <a href="register.html"><button>Register</button></a>
+            <a href="forget-password.html"><button>Forgot Password?</button></a>
+        </div>
+    </nav>
+</header>
+<br><br>
+<div class="register_page" >
+    <div class="form">
+        <form class="register_form">
+            <input type="text" placeholder="First_name"><br>
+            <input type="text" placeholder="Last_name"><br>
+            <input type="email"placeholder="Email"><br>
+            <input type="password" placeholder="Password" minlength="5"><br>
+            <input type="password" placeholder="Confirm_Password" minlength="5"><br>
+            Date:<input type="date" placeholder="Date Of Birthday"><br>
+            Gender:<select name="gender">
+            <option value="male" >male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select><br>
+            <button>Register</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

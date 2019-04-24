@@ -1,0 +1,21 @@
+/*body{
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-attachment: fixed;
+}*/
+body{
+    background-color: lavender;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    border: 0px solid green;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
