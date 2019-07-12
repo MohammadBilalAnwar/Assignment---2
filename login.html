@@ -1,3 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  href="style2.css" media="screen" />
+</head>
+<body>
+<h1>Login</h1>
+<br>
+<header>
+    <nav>
+        <div id ="home_navigation">
+            <a href="index.html"><button>Home</button></a>
+            <a href="about.html"><button>About</button></a>
+            <a href="contact.html"><button>Contact</button></a>
+            <a href="login.html"><button>Login</button></a>
+            <a href="register.html"><button>Register</button></a>
+        </div>
+    </nav>
+</header>
+<hr>
+<br><br>
+<div class="login_page">
+    <div class="form">
+        <form class="login form">
+            Email: <input type="email"
+                          placeholder="Enter Email"
+                          pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+        <br>
+        Password: <input type="password"
+                         PLACEHOLDER="Enter password"
+                         minlength="5"
+                         pattern="^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$"> <!-- At least 1 (symbol, upper case, lower case, number). Length is a minimum of 8 characters -->
+            <br>
+        <a1 href="about.html"><button>login!</button></a1>
+        <a href="forget-password.html"><button1>Forgot Password?</button1></a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
 <!--<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,36 +91,3 @@
 </html>
 
 -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>login</title>
-    <link rel="stylesheet"  href="style2.css" media="screen" />
-</head>
-<body>
-<h1><b>LOGIN</b></h1>
-<header>
-    <nav>
-        <div id ="navigation">
-            <a href="index.html"><button>Home</button></a>
-            <a href="about.html"><button>About</button></a>
-            <a href="contact.html"><button>Contact</button></a>
-            <a href="login.html"><button>Login</button></a>
-            <a href="register.html"><button>Register</button></a>
-            <a href="forget-password.html"><button>Forgot Password?</button></a>
-        </div>
-    </nav>
-</header>
-<br><br>
-<div class="login_page">
-    <div class="form">
-        <form class="login form">
-            Email: <input type="email" placeholder="Enter Email"><br>
-            Password: <input type="password" PLACEHOLDER="Enter password" minlength="5"><br>
-            <a1 href="about.html"><button>login!</button></a1>
-            <a href="forgotpassword.html"><button1>forgot_password</button1></a>
-        </form>
-    </div>
-</div>
-</body>
-</html>

@@ -1,6 +1,6 @@
 .blurredText{
-    width: 300px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     display: inline-block;
     margin: 4px;
     position: relative;
@@ -14,12 +14,12 @@
 }
 
 
-
+/*
 .blurredText:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
 }
-
+*/
 
 
 .blurredText :not(img){
@@ -37,6 +37,7 @@
 .blurredText h3{
     top:50%;
 }
+
 .blurredText:hover :not(img){
     opacity:1;
 }

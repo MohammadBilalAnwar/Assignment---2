@@ -1,13 +1,14 @@
 body{
     background-color: aliceblue;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url("images/Skardu2.jpg");
 }
 h1{
     text-align: center;
-    padding: 2% 0 0;
+    /*padding: 2% 0 0;*/
 }
 .contact{
     width: 360px;
-    padding: 5% 0 0;
+   /* padding: 5% 0 0;*/
     margin: auto;
 }
 .fieldKey{
@@ -33,4 +34,9 @@ h1{
     color:#FFFFFF;
     font-size: 14px;
     cursor: pointer;
+}
+
+#home_navigation{
+    display:flex;
+    justify-content: center;
 }

@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url("408f12c0-846e-4464-af86-fa955894dadf.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url("images/408f12c0-846e-4464-af86-fa955894dadf.jpg");
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@ h1{
 }
 .register_page{
     width: 360px;
-    padding: 0% 0 0;
+    /*padding: 0% 0 0;*/
     margin: auto;
 }
 .form{
@@ -45,4 +45,9 @@ h1{
     color:#FFFFFF;
     font-size: 14px;
     cursor: pointer;
+}
+
+#home_navigation{
+    display:flex;
+    justify-content: center;
 }
